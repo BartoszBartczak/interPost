@@ -3,8 +3,9 @@
         <button class="add">
             Dodaj post
         </button>
-        <div class="container">
-            
+        <div class="container" *ngFor="let post of posts">
+            <h5>{{ post.title }}</h5>
+            <p> {{ post.text }}</p>
         </div>
     </div>
 </div>
