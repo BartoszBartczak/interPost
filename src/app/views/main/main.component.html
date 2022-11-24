@@ -5,6 +5,7 @@
         </button>
         <div class="container" *ngFor="let post of posts">
             <h5>{{ post.title }}</h5>
+            <img class="card-img-top" src="{{ post.pictureUrl }}" alt="Card image cap">
             <p> {{ post.text }}</p>
         </div>
     </div>

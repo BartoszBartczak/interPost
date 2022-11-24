@@ -1,6 +1,19 @@
 .container {
-    margin: 10px;
+    margin: 10px 20% 10px 20%;
     align-self: center;
+
+    h5 {
+        align-self: center;
+        margin: 2px 30% 2px 40%;
+        font-size: large;
+    }
+
+    img {
+        width: 500px;
+        height: 200px;
+        object-fit:cover;
+        margin: 2px 20% 2px 20%;
+    }
 }
 
 .add {
