@@ -1,4 +1,29 @@
 .navbar {
     background-color: #1976d2;
-    height: 60px;
+    height: 70px;
+    display: flex;
+
+        a {
+            margin: 20px;
+            text-decoration:none;
+            color: white;
+        }
+
+        input {
+            height: 30px;
+            margin: 15px;
+            border-radius: 5px;
+            border-color: white;
+            padding-left: 10px;
+
+        }
+
+        button {
+            height: 30px;
+            margin: 18px;
+            background-color: white;
+            color:darkgrey;
+            border-color: white;
+            border-radius: 2px;
+        }
 }
