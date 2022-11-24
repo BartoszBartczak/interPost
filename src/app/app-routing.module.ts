@@ -5,9 +5,10 @@ import { FormComponent } from './views/form/form.component';
 import { MainComponent } from './views/main/main.component';
 
 const routes: Routes = [
+  { path: '', redirectTo: '/main', pathMatch: 'full' },
   { path: 'main', component: MainComponent },
   { path: 'form', component: FormComponent},
-  { path: '', redirectTo: '/main', pathMatch: 'full' },
+  
 ];
 
 @NgModule({
